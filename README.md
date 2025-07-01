@@ -18,8 +18,9 @@ This data science project analyzes the historical stock performance and revenue 
 
 IBM_Data_Science_Final_Assignment_of_Python_Project_for_Data_Science/
 │
-├── Tesla_GameStop_Project.ipynb       # Jupyter Notebook with complete code and output
+├── Tesla_GameStop_Project.ipynb       # Jupyter Notebook with complete code and outputs
 ├── README.md                          # Project overview and documentation
+├── requirements.txt                   # (optional) Python dependencies for the project
 │
 ├── Screenshots/                       # Screenshots for each question (code + output)
 │   ├── question1_output.png           # Tesla stock data using yfinance
@@ -29,10 +30,9 @@ IBM_Data_Science_Final_Assignment_of_Python_Project_for_Data_Science/
 │   ├── question5_output.png           # Tesla stock vs revenue graph
 │   ├── question6_output.png           # GameStop stock vs revenue graph
 │
-├── Plots/                             # Static and interactive visualizations
-│   ├── tesla_stock_plot.png           # (optional) static Tesla plot
-│   ├── gamestop_stock_plot.png        # (optional) static GME plot
-│   ├── tesla_stock_dashboard.html     # Interactive Plotly HTML for Tesla
-│   └── gamestop_stock_dashboard.html  # Interactive Plotly HTML for GME
-│
-└── requirements.txt (optional)        # Python dependencies for the project
+└── Plots/                             # Static and interactive visualizations
+    ├── tesla_stock_plot.png           # (optional) static Tesla plot
+    ├── gamestop_stock_plot.png        # (optional) static GME plot
+    ├── tesla_stock_dashboard.html     # Interactive Plotly HTML for Tesla
+    └── gamestop_stock_dashboard.html  # Interactive Plotly HTML for GME
+
